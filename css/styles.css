@@ -112,6 +112,7 @@ img {
 .menu-address-list {
     gap: 40px;
     display: flex;
+    padding: 24px 0;
 }
 
 .menu-address-link {
@@ -295,10 +296,13 @@ img {
     color: #434455;
 }
 
+.page-footer {
+    padding: 100px 0;
+}
+
 .page-footer .container {
     background-color: #2e2f42;
     min-height: 312px;
-    padding: 100px 0;
 }
 
 .link-logo-footer {
@@ -311,7 +315,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-bottom: 17.5px;
+    margin-bottom: 16px;
 }
 
 .span-link-color-footer {
