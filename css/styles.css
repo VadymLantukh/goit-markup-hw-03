@@ -56,14 +56,17 @@ img {
 
 .container {
     max-width: 1158px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
+}
+
+.page-header {
+        border-bottom: 1px solid #e7e9fc;
 }
 
 .page-header .container {
     min-height: 72px;
-    border-bottom: 1px solid #e7e9fc;
     display: flex;
     align-items: center;
 }
@@ -81,6 +84,8 @@ img {
 
 .nav-menu {
     display: flex;
+    align-items: center;
+    padding: 24px 0;
 }
 
 .menu-nav-list {
@@ -126,9 +131,11 @@ img {
     background-color: #2E2F42;
     display: flex;
     text-align: center;
+    padding: 188px 0;
 }
 
 .main-section-title {
+    max-width: 496px;
     letter-spacing: 0.02em;
     text-align: center;
     font-weight: 700;
@@ -139,14 +146,17 @@ img {
 }
 
 .main-section-button {
+    display: block;
+    margin: auto;
     background-color: #4d5ae5;
     font-weight: 500;
     color: #fff;
     line-height: 1.5;
     letter-spacing: 0.04em;
     border-radius: 4px;
-    width: 169px;
+    min-width: 169px;
     min-height: 56px;
+    border: none;
 }
 
 .main-section-button:hover,
@@ -216,8 +226,8 @@ img {
     min-height: 380px;
 }
 
-.team-section-img {
-    margin-bottom: 32px;
+.team-section-box {
+    padding: 32px 0;
 }
 
 .team-section-title-item {
@@ -227,12 +237,14 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+    text-align: center;
 }
 
 .team-section-paragraph-item {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 }
 
 .portfolio-section .container {
@@ -253,17 +265,19 @@ img {
 .portfolio-section-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 23px
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio-section-item {
     min-height: 420px;
-    width: calc(100% - 24 / 6);
-    border-bottom: 1px solid #e7e9fc;
+    width: calc(100% - 48 / 3);
 }
 
-.portfolio-section-img {
-    margin-bottom: 32px;
+.portfolio-section-box {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio-section-title-item {
@@ -273,31 +287,23 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-    padding-left: 16px;
 }
 
 .portfolio-section-paragraph-item {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding-left: 16px;
 }
 
 .page-footer .container {
     background-color: #2e2f42;
     min-height: 312px;
-}
-
-.box-footer {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    min-height: 312px;
-    min-width: 264px;
-    padding-left: 140px;
+    padding: 100px 0;
 }
 
 .link-logo-footer {
+    margin-bottom: 16px;
+    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -316,5 +322,5 @@ img {
     line-height: 1.5;
     color: #f4f4fd;
     letter-spacing: 0.02em;
-    width: 264px;
+    max-width: 264px
 }
