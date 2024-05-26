@@ -82,6 +82,10 @@ img {
     margin-right: 76px;
 }
 
+.span-link-color-header {
+    color: #2e2f42;
+}
+
 .nav-menu {
     display: flex;
     align-items: center;
@@ -91,17 +95,13 @@ img {
     display: flex;
     gap: 40px;
     margin-right: 332px;
-    padding: 24px 0;
-}
-
-.span-link-color-header {
-    color: #2e2f42;
 }
 
 .menu-nav-link {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .menu-nav-link:hover,
