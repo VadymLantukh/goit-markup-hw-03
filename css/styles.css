@@ -85,13 +85,16 @@ img {
 .nav-menu {
     display: flex;
     align-items: center;
-    padding: 24px 0;
 }
 
 .menu-nav-list {
     display: flex;
     gap: 40px;
     margin-right: 332px;
+}
+
+.menu-nav-item {
+    padding: 24px 0;
 }
 
 .span-link-color-header {
