@@ -297,12 +297,8 @@ img {
 
 .page-footer {
     background-color: #2e2f42;
-}
-
-.page-footer .container {
-    
+    padding: 100px 0;
     min-height: 312px;
-    padding: 100px 0 0 156px;
 }
 
 .link-logo-footer {
