@@ -197,9 +197,9 @@ img {
     letter-spacing: 0.02em;
 }
 
-.team-section .container {
-    background-color: #f4f4fd;
-    min-height: 732px;
+
+.team-section {
+    background-color: #f4f4fd;;
 }
 
 .team-section-title {
@@ -211,7 +211,6 @@ img {
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
-    padding-top: 120px;
 }
 
 .team-section-list {
@@ -297,11 +296,11 @@ img {
 }
 
 .page-footer {
-    padding: 100px 0;
+    background-color: #2e2f42;
 }
 
 .page-footer .container {
-    background-color: #2e2f42;
+    
     min-height: 312px;
     padding: 100px 0 0 156px;
 }
